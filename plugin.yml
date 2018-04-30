@@ -1,6 +1,6 @@
 name: PotatoMan
 main: com.benjisoft.Potato.PotatoTest
-version: 1.2.1
+version: 1.2.2
 commands:
    potato:
       description: Get dem potatos
