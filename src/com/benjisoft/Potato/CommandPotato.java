@@ -15,7 +15,7 @@ public class CommandPotato implements CommandExecutor {
 			Player player = (Player) sender;
 			
 			// Give items to player
-			ItemStack bakedpotato = new ItemStack(Material.POTATO, 64);
+			ItemStack bakedpotato = new ItemStack(Material.POTATO_ITEM, 64);
 			player.getInventory().addItem(bakedpotato);
 			player.sendMessage("Have ye Potatos!");
 		}
