@@ -1,7 +1,10 @@
 name: PotatoMan
 main: com.benjisoft.Potato.PotatoTest
-version: 1.1
+version: 1.2
 commands:
    potato:
       description: Get dem potatos
       usage: /potato
+   carrot:
+      description: Don't touch it!
+      usage: /carrot

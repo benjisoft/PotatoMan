@@ -6,6 +6,7 @@ public class PotatoTest extends JavaPlugin {
 	@Override
 	public void onEnable() {
 		this.getCommand("potato").setExecutor(new CommandPotato());
+		this.getCommand("carrot").setExecutor(new CommandCarrot());
 	}
 	// Fired when plugin is disabled
 	public void onDisable() {

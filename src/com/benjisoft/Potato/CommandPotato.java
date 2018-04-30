@@ -1,4 +1,5 @@
 package com.benjisoft.Potato;
+
 import org.bukkit.Material;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -14,7 +15,7 @@ public class CommandPotato implements CommandExecutor {
 			Player player = (Player) sender;
 			
 			// Give items to player
-			ItemStack bakedpotato = new ItemStack(Material.BAKED_POTATO, 64);
+			ItemStack bakedpotato = new ItemStack(Material.POTATO, 64);
 			player.getInventory().addItem(bakedpotato);
 			player.sendMessage("Have ye Potatos!");
 		}
